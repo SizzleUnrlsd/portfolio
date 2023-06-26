@@ -1,54 +1,39 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Mon Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 0;
-      margin: 0;
-      background-color: #f4f4f4;
-    }
-    .container {
-      width: 80%;
-      margin: 0 auto;
-    }
-    header {
-      background-color: #333;
-      color: white;
-      padding: 10px 0;
-    }
-    header h1 {
-      margin: 0;
-      padding: 0 20px;
-    }
-    .card {
-      background-color: white;
-      margin: 20px 0;
-      padding: 20px;
-      border-radius: 2px;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Terminal</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>Mon Portfolio</h1>
+  <div class="terminal">
+    <div class="terminal-header">
+      <div class="terminal-buttons">
+        <span class="terminal-button"></span>
+        <span class="terminal-button"></span>
+        <span class="terminal-button"></span>
+      </div>
+      <span class="terminal-title">Portfolio Terminal</span>
     </div>
-  </header>
-  <div class="container">
-    <div class="card">
-      <h2>Projet 1</h2>
-      <p>Description du projet 1.</p>
-      <a href="lien vers le projet 1 sur Github">Voir sur Github</a>
+    <div class="terminal-body">
+      <pre>
+        <code>&gt; Welcome to my portfolio!
+&gt; Here are my GitHub projects:</code>
+      </pre>
+      <ul class="project-list">
+        <li>
+          <a href="https://github.com/your-username/project1" target="_blank">Project 1</a>
+        </li>
+        <li>
+          <a href="https://github.com/your-username/project2" target="_blank">Project 2</a>
+        </li>
+        <li>
+          <a href="https://github.com/your-username/project3" target="_blank">Project 3</a>
+        </li>
+        <!-- Add more projects as needed -->
+      </ul>
     </div>
-    <div class="card">
-      <h2>Projet 2</h2>
-      <p>Description du projet 2.</p>
-      <a href="lien vers le projet 2 sur Github">Voir sur Github</a>
-    </div>
-    <!-- Ajoutez plus de projets ici -->
   </div>
 </body>
 </html>
