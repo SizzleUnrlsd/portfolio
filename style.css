@@ -55,9 +55,51 @@ body {
   .project-list a {
     color: #0F0;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .project-list img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .project-list span {
+    font-size: 1rem;
   }
   
   .project-list a:hover {
     text-decoration: underline;
+  }
+  
+  .project-details {
+    display: none;
+  }
+  
+  .project-details img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .back-link {
+    color: #0F0;
+    text-decoration: none;
+  }
+  
+  .back-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styles */
+  
+  @media screen and (max-width: 600px) {
+    .terminal {
+      margin: 10px;
+      max-width: none;
+      width: 100%;
+      box-sizing: border-box;
+    }
   }
   
