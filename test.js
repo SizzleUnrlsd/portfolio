@@ -1,4 +1,4 @@
-const { typeText, createProjectElement, displayProjects, animateTitle } = require('./yourFile.js');
+const { typeText, createProjectElement, displayProjects, animateTitle } = require('./script.js');
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 
